@@ -1,0 +1,71 @@
+body{
+    zoom: 125%;
+    background: url(/assets/img/background_register4.jpg) no-repeat center;
+    background-size: 100%;
+    transition: 2s all;
+}
+
+.register_form{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10%;
+}
+
+.inputs_register-form{
+    border: 10px solid blue;
+    border-radius: 30%;
+    padding: 40px;
+}
+
+.name, .pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    text-overflow: ellipsis;
+}
+
+span{
+    color: white;
+    bottom: 10px;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    transition: 2s all;
+}
+
+span:hover{
+    animation: bgColorProperty ease-in 2s infinite;
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 1s all;
+    padding: 5px;
+}
+
+@keyframes bgColorProperty{
+    10%{
+        color: orange;
+    }
+
+    40%{
+        color: fuchsia;
+    }
+
+    70%{
+        color: cornflowerblue;
+    }
+}
+
+.btn_register, .btn_for-register{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn_for-register a{
+    color: rgb(115, 0, 255);
+    text-decoration: none;
+}

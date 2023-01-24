@@ -1,0 +1,6 @@
+.encabezado{
+    background: rgba(128, 128, 128, 0.63);
+    padding: 2rem;
+    font-size: 1.50rem;
+    font-family: var(--principal_header-font);
+}

@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+    padding-left: 2rem;
+}
+
+.page_error-msg:nth-child(1){
+    font-size: 2rem;
+}
+
+.btn_error-escape{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn_err{
+    border-radius: 5rem;
+    font-size: 0.99rem;
+}
+
+.btn_err:hover{
+    color: white;
+    background-color: rgba(119, 0, 255, 0.692);
+}

@@ -1,0 +1,5 @@
+.dark-mode{
+    background-image: url(/assets/img/infinity.jpg);
+    transition: 2s all;
+    color: white;
+}

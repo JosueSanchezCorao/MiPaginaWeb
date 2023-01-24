@@ -1,0 +1,34 @@
+:root{
+    --background-principal:rgba(82, 79, 79, 0.308);
+    --background-display-none: #ffffff42;
+    --background-display-transparente: rgba(0, 0, 0, 0.308);
+    --blanco-navajo: navajowhite; 
+    --color-transparente: rgba(255, 255, 255, 0.562);
+    
+    --Orbitron: 'Orbitron', sans-serif;
+    --Caveat: 'Caveat', cursive;
+    --Permanent: 'Permanent Marker', cursive;;
+    --Monserrat: 'Montserrat', sans-serif;
+    --Lobster: 'Lobster', cursive;
+    --Fredoko-One: 'Fredoka One', cursive;
+    --Dancing-Sprint: 'Dancing Script', cursive;
+    --Silkscreen: 'Silkscreen', cursive;
+}
+
+.encabezado{
+    background: var(--background-principal);
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--Monserrat);
+}
+
+.logout{
+    font-size: 20px;
+    position: relative;
+    right: 43rem;
+    top: 30px;
+}

@@ -1,0 +1,8 @@
+.encabezado{
+    background-color: rgb(241, 72, 72);
+    font-size: 25px;
+    padding: 2rem;
+}
+.encabezado a{
+    color: white;
+}

@@ -1,0 +1,22 @@
+.rodape__principal{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: var(--background-principal);
+}
+
+.rodape__tema-titulo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: var(--Permanent);
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.rodape__tema-redsocial{
+    display: inline-flex;
+    margin-left: 3rem;
+    width: 3rem;
+}

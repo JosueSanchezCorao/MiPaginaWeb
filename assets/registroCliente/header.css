@@ -1,0 +1,7 @@
+.encabezado{
+    background-color: rgba(179, 179, 255, 0.715);
+    font-family: var(--principal_header-font);
+    color: rgb(44, 89, 224);
+    font-size: 25px;
+    padding: 2rem;
+}

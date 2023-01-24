@@ -1,0 +1,73 @@
+:root{
+    --background-principal:rgba(82, 79, 79, 0.308);
+    --background-display-none: #ffffff42;
+    --background-display-transparente: rgba(0, 0, 0, 0.308);
+    --blanco-navajo: navajowhite; 
+    --color-transparente: rgba(255, 255, 255, 0.562);
+    
+    --Orbitron: 'Orbitron', sans-serif;
+    --Caveat: 'Caveat', cursive;
+    --Permanent: 'Permanent Marker', cursive;;
+    --Monserrat: 'Montserrat', sans-serif;
+    --Lobster: 'Lobster', cursive;
+    --Fredoko-One: 'Fredoka One', cursive;
+    --Dancing-Sprint: 'Dancing Script', cursive;
+    --Silkscreen: 'Silkscreen', cursive;
+}
+
+.encabezado{
+    background: var(--background-principal);
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--Monserrat);
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.nav-menu-nav{
+    color: var(--blanco-navajo);
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.nav-menu-nav li{
+    margin: 0 5px 10px;
+    text-align: center;
+}
+
+.nav-menu-nav:hover{
+    color: red;
+}
+
+.nav-menu-nav li ul{
+    display: none;
+}
+
+.nav-menu-nav li:hover > ul{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 120px;
+    align-items: center;
+    position: absolute;
+    font-size: 14px;
+    background: #00000098;
+}
+
+.nav-menu-nav li ul:hover{
+    background: var(--background-display-transparente);
+}
+
+.nav-menu-nav li ul li:hover{
+    transition: .5s;
+    background: var(--background-display-none);
+}

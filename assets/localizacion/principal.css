@@ -1,0 +1,28 @@
+body{
+    background: rgba(0, 0, 0, 0.932);
+}
+
+header{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: underline wavy red;
+}
+
+header:hover{
+    font-size: 40px;
+    transition: all 1s;
+    transition-delay: all 1s;
+}
+
+.navegacion{
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu-nav :nth-child(1){
+    color: white;
+}

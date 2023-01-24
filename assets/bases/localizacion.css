@@ -1,0 +1,23 @@
+.localizacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.localizacion__titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.99rem;
+}
+
+.localizacion__titulo:hover{
+    text-decoration: underline;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+}

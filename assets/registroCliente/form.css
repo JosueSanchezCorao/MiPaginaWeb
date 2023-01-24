@@ -1,0 +1,31 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.formulario_registro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 16rem;
+    font-size: 1.55rem;
+}
+
+.input_name, .input_email{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.542);
+    font-size: 2rem;
+    text-overflow: ellipsis;
+}
+
+.btn_registro{
+    border: none;
+    font-size: 1rem;
+    margin: 1pc;
+    border: 5px solid rgba(87, 75, 75, 0.541);
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.policity_info-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top: 15rem;
+    padding-left:1.23rem ;
+}
+
+.policity_info{
+    margin: 0 3rem;
+}
+
+.border_info{
+    animation: borderInfoAnimation ease-in 1.5s infinite;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 10px 10px var(--box-shadow-transparent);
+    font-size: 1.33rem;
+    font-family: var(--Permanent-Market-FS);
+    position: static;
+    padding: 5rem;
+    width: 25rem;
+}
+
+@keyframes borderInfoAnimation{
+    50%{
+        color: blue;
+    }
+}
